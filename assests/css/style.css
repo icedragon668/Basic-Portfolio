@@ -1,0 +1,116 @@
+/* Top Nav Bar Start */
+
+.head {
+    position: fixed;
+    z-index: 5;
+    background: whitesmoke;
+    margin: 0 auto;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid #000
+}
+.Name {
+    padding: 20px;
+    float: left;
+    background-color: aquamarine;
+    margin: 0 0 0 10%;
+}
+
+.Btn {
+    margin: 25px 10% 0 0;
+    float: right;
+}
+
+/* Top Nav Bar End */
+body {
+    background: lightgray;
+}
+/* Body Block Start */
+
+main {
+    background: whitesmoke;
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 10%;
+    clear: both;
+    padding-bottom: 50px;
+} 
+
+/* Body Bloack End */
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+/*Foot Block Start */
+
+.foot {
+    position: fixed;
+    border-top: 2px solid #73ad21;
+    background: darkgrey;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* Foot Block End */
+
+/* Image Block Start */
+
+.container {
+    /* .container clips */
+    /* .image squishes */
+    float: left;
+    position: relative;
+    height: 150px;
+    width: 15%;
+    overflow: hidden;
+    margin: 10px 5% 10px 5%;
+}
+
+.imgtxt {
+    position: absolute;
+    bottom: 8px;
+    left: 0px;
+    font-size: 18;
+    background-color: #73ad21;
+    width: 100%;
+    text-align: center;
+}
+
+/* Image Bloack End */
+
+/* Form Block Start */
+
+.submit {
+
+}
+
+input {
+    width: 95%;
+}
+
+form {
+    margin: 0 1%;
+    padding-bottom: 5px;
+}
+
+#msg {
+    height: 100px;
+}
+
+button {
+    margin: 5px;
+}
+/* Form Block End */
+/* position: relative (targets normal spot)
+position: absolute (targets nearest non-static) (these scroll)
+position: static (fine grain: none, default)
+position: fixed (relative to viewport) (they don't scroll) */
