@@ -6,7 +6,7 @@
     background: whitesmoke;
     margin: 0 auto;
     width: 100%;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     top: 0;
     left: 0;
     border-bottom: 1px solid #000
@@ -33,7 +33,7 @@ main {
     background: whitesmoke;
     width: 80%;
     margin: 0 auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     position: absolute;
     top: 100px;
     left: 10%;
