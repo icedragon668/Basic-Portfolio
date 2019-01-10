@@ -18,6 +18,19 @@
     margin: 0 0 0 10%;
 }
 
+button {
+        background-color: aquamarine;
+        border: none;
+        color: white;
+        margin: 0 auto;
+        padding: 0 20px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 25px;
+        /* border: 2px solid rgb(45, 116, 100) */
+}
+
 .Btn {
     margin: 25px 10% 0 0;
     float: right;
